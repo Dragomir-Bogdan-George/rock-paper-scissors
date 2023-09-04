@@ -59,14 +59,19 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 25px;
+  transition: background-color 0.15s, opacity 0.15s;
 }
 
 .reset-score-button:hover,
-.auto-play-button:hover {
+.auto-play-button:hover,
+.js-reset-yes:hover,
+.js-reset-no:hover {
   background-color: rgb(247, 127, 47);
 }
 
 .reset-score-button:active,
-.auto-play-button:active {
+.auto-play-button:active,
+.js-reset-yes:active,
+.js-reset-no:active {
   opacity: 0.5;
 }
