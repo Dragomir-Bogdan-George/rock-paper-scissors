@@ -35,9 +35,11 @@ body {
 
 .reset-score-button,
 .auto-play-button {
-  background-color: white;
+  background-color: rgb(230, 165, 81);
   border: none;
+  border-radius: 20px;
   font-size: 15px;
+  font-weight: bold;
   padding: 8px 15px;
   cursor: pointer;
 }
@@ -49,7 +51,11 @@ body {
 
 .js-reset-yes,
 .js-reset-no {
+  background-color: rgb(230, 165, 81);
   font-size: 20px;
-  padding: 10px;
+  font-weight: bold;
+  padding: 12px;
   cursor: pointer;
+  border: none;
+  border-radius: 25px;
 }
