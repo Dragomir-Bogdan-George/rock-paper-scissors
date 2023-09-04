@@ -42,6 +42,7 @@ body {
   font-weight: bold;
   padding: 8px 15px;
   cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
 }
 
 .js-confirmation-message {
@@ -58,4 +59,14 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 25px;
+}
+
+.reset-score-button:hover,
+.auto-play-button:hover {
+  background-color: rgb(247, 127, 47);
+}
+
+.reset-score-button:active,
+.auto-play-button:active {
+  opacity: 0.5;
 }
